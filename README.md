@@ -91,7 +91,6 @@ reader.c
 
 #include <sys/msg.h>
 
-
 // structure for message queue
 
 struct mesg_buffer {
