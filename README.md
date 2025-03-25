@@ -1,5 +1,6 @@
 # Linux-IPC-Message-Queues
 Linux IPC-Message Queues
+
 NAME : Hariprasath.R
 
 REG NO : 212223040059
@@ -93,7 +94,6 @@ struct mesg_buffer {
 int main()
 
 {
-
 	key_t key;
  
 	int msgid;
@@ -113,8 +113,7 @@ int main()
 
 	msgctl(msgid, IPC_RMID, NULL);
 	return 0;
- 
-}
+ }
 
 ## OUTPUT
 ![image](https://github.com/user-attachments/assets/fc1db47d-b672-481a-b4ed-889ae00e5985)
